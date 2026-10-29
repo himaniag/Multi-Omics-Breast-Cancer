@@ -4,7 +4,7 @@
 Himani Agrawal (corresponding author, agrawal.himani1010@gmail.com) and Megha Rathi
 Department of CSE & IT, Jaypee Institute of Information Technology, Noida, India
 
-Code and data: https://github.com/himaniag/Multi-Omics-Breast-Cancer · DOI: https://doi.org/10.5281/zenodo.23756025
+Code and data: https://github.com/himaniag/Multi-Omics-Breast-Cancer · DOI: [https://doi.org/10.5281/zenodo.23756025](https://doi.org/10.5281/zenodo.23762788)
 
 ## Contents
 
