@@ -1,0 +1,16 @@
+﻿Table,File,Caption,Note,Rows,Columns
+Table S1,TableS01_cohort_characteristics.csv,"Characteristics of the analytical METABRIC cohort by PAM50 subtype (core-4, n = 1,559).",*Receptor status is shown descriptively and is never used as a predictor. p: Kruskal–Wallis (continuous) or χ² (binary).,14,7
+Table S2,TableS02_module_scores_by_subtype.csv,Descriptive mean scores of the knowledge-guided meta-gene modules by subtype (standardised units) and Kruskal–Wallis tests on the full core-4 cohort.,,8,7
+Table S3,TableS03_hyperparameters.csv,"Hyper-parameters, search spaces and the values selected by inner cross-fitting.",,15,3
+Table S4,TableS04_paired_significance_tests.csv,"Paired comparison of TRIAD-BRCA+ with every comparator over the 10 folds: mean difference and Nadeau–Bengio corrected resampled t-test, Holm-adjusted within each configuration and metric; effect size, Wilcoxon test and win/tie/loss counts refer to balanced accuracy.","p_Holm: Nadeau–Bengio corrected resampled t-test, Holm-adjusted within each configuration and metric. W/T/L: folds won/tied/lost by TRIAD-BRCA+.",20,10
+Table S5,TableS05_leave_one_component_out.csv,"Leave-one-component-out analysis of TRIAD-BRCA+ (p: corrected resampled t-test, Holm-adjusted).",,6,7
+Table S6,TableS06_routing_weights.csv,"Mean BE-adaptive routing weights (v1 Eqs. 5–7) assigned to the TRIAD-BRCA+ experts, by Boundary-Energy stratum (all 10 outer test folds).",,3,5
+Table S7,TableS07_per_subtype_performance.csv,"Per-subtype performance on pooled out-of-fold predictions (repeat 1; every patient predicted once, n = 1,559). 95% CIs: 1,000 bootstrap resamples.",,12,8
+Table S8,TableS08_probability_calibration.csv,"Probability calibration on pooled out-of-fold posteriors (lower is better). For TRIAD-BRCA+ the fused posterior is evaluated; the balanced-risk rule changes decisions, not probabilities.",,9,4
+Table S9,TableS09_permutation_importance.csv,Permutation importance (model reliance) of TRIAD-BRCA+ on outer test folds of repeat 1: view-level (5 permutations) and the 20 most important individual features (2 permutations).,,24,3
+Table S10,TableS10_error_diversity.csv,Error diversity of the expert triads on pooled out-of-fold predictions (lower Q / error correlation = more complementary).,,10,6
+Table S11,TableS11_robustness.csv,"Robustness to degraded molecular input at inference (5 folds of repeat 1, balanced accuracy mean ± SD). Mutation calls are randomly lost; RNA values receive Gaussian noise or are set missing.",,15,5
+Table S12,TableS12_learning_curves.csv,Learning curves: Balanced accuracy (mean ± SD over the 5 folds of repeat 1) versus the number of training patients.,,4,5
+Table S13,TableS13_survival_validity.csv,"Clinical validity: prognostic stratification by reference PAM50 labels versus out-of-fold predicted subtypes (univariable Cox models, Luminal A reference; hazard ratio (HR) with 95% CI).",,6,10
+Table S14,TableS14_tcga_cohort.csv,"External TCGA-BRCA cohort characteristics. The multi-omics export carries no patient barcodes, so the GDC clinical export is summarised at cohort level only.",,19,3
+Table S15,TableS15_headline_comparison.csv,Headline comparison. The re-run column uses the identical folds and the stricter leakage governance of this study; the TCGA rows compare the v1 protocol (E1) with the proposed harmonised protocol (E3).,,8,5

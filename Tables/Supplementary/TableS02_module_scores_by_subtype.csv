@@ -1,0 +1,9 @@
+﻿Module / axis,Mean Basal-like,Mean HER2-enriched,Mean Luminal A,Mean Luminal B,Kruskal H,p
+Proliferation,+0.94,+0.33,-0.55,+0.24,911.1,<0.001
+Luminal/ER,-1.08,-0.33,+0.29,+0.20,653.7,<0.001
+HER2-amplicon,-0.48,+1.27,-0.13,-0.21,329.0,<0.001
+Basal/myoepithelial,+1.20,+0.03,-0.08,-0.41,551.1,<0.001
+Immune,+0.45,+0.27,-0.16,-0.08,220.8,<0.001
+Stromal/ECM,-0.33,+0.05,+0.21,-0.19,143.9,<0.001
+Luminal-Basal axis,-2.28,-0.36,+0.37,+0.61,621.4,<0.001
+Proliferation-Luminal axis,+2.02,+0.66,-0.84,+0.04,939.6,<0.001

@@ -1,0 +1,9 @@
+﻿Module / axis,Genes (n),Genes
+Proliferation,10,"AURKA, CCNB1, CDK1, CCNE1, E2F1, E2F2, E2F8, CHEK1, RAD51, CDC25A"
+Luminal/ER,7,"GATA3, BCL2, MAPT, AR, TBX3, NRIP1, NCOA3"
+HER2-amplicon,1,ERBB2
+Basal/myoepithelial,4,"EGFR, SOX9, CDKN2A, LAMB3"
+Immune,5,"STAT1, CXCL8, PTPN22, KLRG1, FAS"
+Stromal/ECM,8,"MMP2, MMP14, PDGFRB, COL12A1, COL6A3, FN1, LAMA2, DAB2"
+Luminal-Basal axis,—,Luminal/ER - Basal/myoepithelial
+Proliferation-Luminal axis,—,Proliferation - Luminal/ER
