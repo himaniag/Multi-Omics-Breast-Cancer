@@ -1,4 +1,4 @@
-# Submission package — SN Computer Science
+# Multi-Omics Breast Cancer
 
 **Multi-Omics Breast Cancer Subtype Classification Using TRIAD-BRCA+: A Leakage-Aware Ensemble Learning Framework**
 Himani Agrawal (corresponding author, agrawal.himani1010@gmail.com) and Megha Rathi
